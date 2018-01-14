@@ -154,8 +154,5 @@ if __name__ == "__main__":
     for line in file.readlines():
         filter_list.append(line.replace("\n", ""))
     file.close()
-    # show_dir("I:\\Python_Test", "test")
-    show_dir("G:\\资料文档\\山东光辉", "test")
-    # show_dir("G:\\System", "test")
+    show_dir("G:\\System", "test")
     # show_dir("G:\\soft", "test")
-    # show_dir("D:\\project\\pshtA_rep", "test")
